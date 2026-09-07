@@ -1,0 +1,25 @@
+.a6 {
+    padding: 200px 0px;
+    width: 100%;
+    background: url("../../objectPic/itstime/timeback.png");
+    background-size: 100% 300%;
+    background-position: 0% 60%;
+}
+
+.a6 > .carcas {
+    gap: 35px;
+
+    p {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    button {
+        padding: 15px 20px;
+        border-radius: 25px;
+        color: white;
+        background: linear-gradient(to right, #7102D3, black);
+        cursor: pointer;
+    }
+}

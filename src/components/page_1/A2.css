@@ -1,0 +1,40 @@
+.a2 {
+    padding: 75px 0px;
+    align-items: flex-start;
+}
+
+.a2 > .carcas {
+    align-items: flex-start;
+}
+
+.a2 > .carcas > h3 {
+    color: white;
+    font-size: 35px;
+}
+
+.random_numbers {
+    gap: 35px;
+    
+    .info {
+        color: gray;
+    }
+    
+    p {
+        font-size: 150px;
+        color: transparent;
+        /* gradinet_ը դարձնել տեքստերի եզրերով, */
+        background-clip: text !important;
+        animation: for_nums 19s linear infinite;
+    }
+
+    span {
+        font-size: 18px;
+    }
+
+}
+
+@keyframes for_nums {
+    to {
+        background-position-x: -1500px;
+    }
+}

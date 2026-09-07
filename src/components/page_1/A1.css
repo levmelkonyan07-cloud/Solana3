@@ -1,0 +1,74 @@
+.a1 {
+    width: 100%;
+    min-height: 950px;
+    position: relative;
+}
+
+.a1::before,
+.a1::after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: url("../../objectPic/up/upback.png");
+    background-repeat: no-repeat;
+    background-size: 150% 170%;
+}
+
+.a1::before {
+    left: 0px;
+    background-position: 155% 60%;
+}
+
+.a1::after {
+    right: 0%;
+    background-position: -49% 60%;
+}
+
+.a1 > .all {
+    z-index: 1;
+    color: white;
+    gap: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 80px;
+}
+
+.a1 > .all > p {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.a1 > .all > .btns {
+    gap: 25px;
+
+    button {
+        color: white;
+        padding: 17px 35px;
+        border-radius: 35px;
+        cursor: pointer;
+        font-size: 16px;
+        letter-spacing: .5px;
+    }
+
+    button:nth-of-type(1) {
+        background: linear-gradient(to right, #7701D4, transparent);
+    }
+
+    button:nth-of-type(2) {
+        background: transparent;
+        border: 1px solid white;
+    }
+}
+
+.a1 > .all > span {
+    color: #397dc2;
+    font-size: 20px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+
+
